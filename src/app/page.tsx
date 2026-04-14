@@ -2,7 +2,8 @@ import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { StorySection } from "@/components/StorySection";
 import { WorksSection } from "@/components/WorksSection";
-import { Footer } from "@/components/Footer";
+import { BottomHero } from "@/components/BottomHero";
+
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
         <HeroSection />
         <StorySection />
         <WorksSection />
+        <BottomHero />
       </main>
-      <Footer />
     </div>
   );
 }
