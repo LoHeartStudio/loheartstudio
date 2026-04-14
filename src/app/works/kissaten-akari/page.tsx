@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "喫茶 燈火",
+  description: "下北沢の自家焙煎喫茶店「喫茶 燈火」のLP制作事例。レトロな空間の温度をそのままWebに落とし込んだデザイン。",
+};
 
 const projectInfo = {
   title: "喫茶 燈火",

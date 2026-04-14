@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "BLOOM",
+  description: "中目黒のフラワーショップ「BLOOM」のブランドサイト＆サブスク申し込みページの制作事例。Stripe連携によるサブスク決済を実装。",
+};
 
 const projectInfo = {
   title: "BLOOM",

@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "MOTH",
+  description: "ミリタリー古着EC＆ブランドサイト「MOTH」の制作事例。Shopify連携によるEC機能とブランディングを一貫して手がけました。",
+};
 
 const projectInfo = {
   title: "MOTH",

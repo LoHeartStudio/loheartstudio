@@ -22,9 +22,41 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LoHeartStudio | Lo-fi craft for the web.",
+  metadataBase: new URL("https://loheartstudio.com"),
+  title: {
+    default: "LoHeartStudio | Lo-fi craft for the web.",
+    template: "%s | LoHeartStudio",
+  },
   description:
-    "Lo-fiで温度のあるWebを作る、ソロスタジオ。温度のあるWebを、ひとつずつ。",
+    "Lo-fiで温度のあるWebを作る、ソロスタジオ。ひとつずつ、ていねいに。手ざわりのあるWebを、あなたのブランドに。",
+  openGraph: {
+    type: "website",
+    locale: "ja_JP",
+    url: "https://loheartstudio.com",
+    siteName: "LoHeartStudio",
+    title: "LoHeartStudio | Lo-fi craft for the web.",
+    description:
+      "Lo-fiで温度のあるWebを作る、ソロスタジオ。ひとつずつ、ていねいに。",
+    images: [
+      {
+        url: "/images/logo-sns.png",
+        width: 1200,
+        height: 630,
+        alt: "LoHeartStudio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LoHeartStudio | Lo-fi craft for the web.",
+    description:
+      "Lo-fiで温度のあるWebを作る、ソロスタジオ。ひとつずつ、ていねいに。",
+    images: ["/images/logo-sns.png"],
+  },
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({

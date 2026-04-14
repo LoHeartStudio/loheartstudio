@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "LoHeartStudioについて。Lo-fiで温度のあるWebを作る、ひとり運営のWeb制作スタジオです。",
+};
 
 export default function AboutPage() {
   return (

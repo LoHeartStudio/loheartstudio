@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Services",
+  description: "LoHeartStudioのWebデザイン・開発サービスと料金プランのご案内。Web Design、Development、Brandingに対応。",
+};
 
 const services = [
   {

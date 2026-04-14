@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Cotton Archive",
+  description: "ヴィンテージ衣類のアーカイブ＆価格データベース。レアリティスコアや価格推移を記録するWebサービスの制作事例。",
+};
 
 const projectInfo = {
   title: "Cotton Archive",
