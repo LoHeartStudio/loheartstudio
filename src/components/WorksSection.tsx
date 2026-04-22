@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { RevealOnScroll } from "./RevealOnScroll";
 
 interface WorkItem {
@@ -46,6 +47,10 @@ const works: WorkItem[] = [
 function WorkCard({ work, index }: { work: WorkItem; index: number }) {
   return (
     <RevealOnScroll delay={index % 2 === 0 ? 0 : 0.1}>
+      <motion.div
+        whileHover={{ y: -6 }}
+        transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+      >
       <Link href={work.href} className="group block">
         <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-[2rem] rounded-b-sm bg-[#1A1A1A] p-2">
           <Image
@@ -83,6 +88,7 @@ function WorkCard({ work, index }: { work: WorkItem; index: number }) {
           </div>
         </div>
       </Link>
+      </motion.div>
     </RevealOnScroll>
   );
 }

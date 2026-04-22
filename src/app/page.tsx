@@ -7,7 +7,7 @@ import { BottomHero } from "@/components/BottomHero";
 
 export default function Home() {
   return (
-    <div>
+    <div className="grain">
       <Header />
       <main>
         <HeroSection />
