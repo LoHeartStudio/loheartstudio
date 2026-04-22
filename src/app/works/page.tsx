@@ -62,12 +62,12 @@ export default function WorksPage() {
         </section>
 
         {/* Works grid */}
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
               {allWorks.map((work) => (
                 <Link key={work.title} href={work.href} className="group block">
-                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-[2rem] rounded-b-sm bg-[#1A1A1A] p-2">
+                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-[2rem] rounded-b-sm bg-lhs-ink p-2">
                     <Image
                       src={work.image}
                       alt={work.title}

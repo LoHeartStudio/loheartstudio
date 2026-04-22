@@ -55,7 +55,7 @@ export default function ContactPage() {
               </h1>
             </div>
           </section>
-          <section className="bg-[#FAFAF8] py-24">
+          <section className="bg-lhs-cream py-24">
             <div className="u-container max-w-[720px] text-center">
               <p className="font-sans text-lhs-ink text-lg mb-4">
                 お問い合わせありがとうございます。
@@ -86,7 +86,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container max-w-[720px]">
             <div className="mb-16">
               <p className="font-sans text-lhs-gray text-[0.9375rem] leading-[1.9]">
@@ -198,7 +198,7 @@ export default function ContactPage() {
               </div>
 
               {status === "error" && (
-                <p className="font-sans text-red-500 text-sm">
+                <p className="font-sans text-lhs-blue text-sm">
                   送信に失敗しました。時間をおいてお試しください。
                 </p>
               )}

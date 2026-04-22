@@ -69,7 +69,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Services list */}
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container">
             <div className="flex flex-col divide-y divide-lhs-ink/8">
               {services.map((service, i) => (
@@ -104,7 +104,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Pricing */}
-        <section className="bg-[#FAFAF8] pb-32">
+        <section className="bg-lhs-cream pb-32">
           <div className="u-container">
             <div className="mb-16">
               <p className="font-mono text-lhs-muted text-[10px] uppercase tracking-[0.3em] mb-4">

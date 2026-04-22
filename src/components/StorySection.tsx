@@ -30,7 +30,7 @@ function ScrollRevealText({ children }: { children: string }) {
 
 export function StorySection() {
   return (
-    <section className="bg-[#FAFAF8] relative overflow-hidden">
+    <section className="bg-lhs-cream relative overflow-hidden">
       {/* Giant heading */}
       <div className="py-8">
         <RevealOnScroll>

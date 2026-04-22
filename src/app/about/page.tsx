@@ -25,7 +25,7 @@ export default function AboutPage() {
         </section>
 
         {/* Story */}
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
               <div>

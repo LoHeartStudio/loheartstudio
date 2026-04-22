@@ -51,7 +51,7 @@ export default function BloomPage() {
         {/* Main image */}
         <section className="bg-lhs-ink pb-2">
           <div className="u-container">
-            <div className="w-full overflow-hidden rounded-2xl bg-[#1A1A1A] p-2">
+            <div className="w-full overflow-hidden rounded-2xl bg-lhs-ink p-2">
               <Image
                 src="/images/bloom-exterior.jpg"
                 alt="BLOOM — 店舗外観"
@@ -66,7 +66,7 @@ export default function BloomPage() {
         </section>
 
         {/* Project details */}
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-24">
               <div className="flex flex-col gap-8">
@@ -152,7 +152,7 @@ export default function BloomPage() {
 
             {/* Second image */}
             <div className="mb-24">
-              <div className="w-full overflow-hidden rounded-2xl bg-[#1A1A1A] p-2">
+              <div className="w-full overflow-hidden rounded-2xl bg-lhs-ink p-2">
                 <Image
                   src="/images/bloom-dryflower.jpg"
                   alt="BLOOM — ドライフラワー"

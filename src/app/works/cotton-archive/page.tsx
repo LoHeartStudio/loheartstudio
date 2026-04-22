@@ -53,7 +53,7 @@ export default function CottonArchivePage() {
         {/* Project image — full width */}
         <section className="bg-lhs-ink pb-2">
           <div className="u-container">
-            <div className="w-full overflow-hidden rounded-2xl bg-[#1A1A1A] p-2">
+            <div className="w-full overflow-hidden rounded-2xl bg-lhs-ink p-2">
               <Image
                 src="/images/cotton-archive-top.png"
                 alt="Cotton Archive — トップページ"
@@ -68,7 +68,7 @@ export default function CottonArchivePage() {
         </section>
 
         {/* Project details */}
-        <section className="bg-[#FAFAF8] py-24">
+        <section className="bg-lhs-cream py-24">
           <div className="u-container">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-24">
               {/* Meta */}
@@ -220,7 +220,7 @@ export default function CottonArchivePage() {
 
             {/* More images */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
-              <div className="overflow-hidden rounded-xl bg-[#1A1A1A] p-2">
+              <div className="overflow-hidden rounded-xl bg-lhs-ink p-2">
                 <Image
                   src="/images/cotton-archive-detail.png"
                   alt="Cotton Archive — アイテム詳細ページ"
@@ -230,7 +230,7 @@ export default function CottonArchivePage() {
                   sizes="50vw"
                 />
               </div>
-              <div className="overflow-hidden rounded-xl bg-[#1A1A1A] p-2">
+              <div className="overflow-hidden rounded-xl bg-lhs-ink p-2">
                 <Image
                   src="/images/cotton-archive-submit.png"
                   alt="Cotton Archive — アイテム投稿フォーム"

@@ -52,7 +52,7 @@ function WorkCard({ work, index }: { work: WorkItem; index: number }) {
         transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
       >
       <Link href={work.href} className="group block">
-        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-[2rem] rounded-b-sm bg-[#1A1A1A] p-2">
+        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-[2rem] rounded-b-sm bg-lhs-ink p-2">
           <Image
             src={work.image}
             alt={work.title}
@@ -95,7 +95,7 @@ function WorkCard({ work, index }: { work: WorkItem; index: number }) {
 
 export function WorksSection() {
   return (
-    <section className="bg-[#FAFAF8] py-32">
+    <section className="bg-lhs-cream py-32">
       <div className="u-container mb-20">
         <RevealOnScroll>
           <div className="flex items-end justify-between">
